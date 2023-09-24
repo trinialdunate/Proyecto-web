@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e2dbd5;
-    margin: 0;
+    margin: 0.5;
 }
 
 
@@ -13,33 +13,22 @@ header {
     padding:0.5rem;
 }
 
-ul {
-    font-style: oblique;
-    color: #ffd3d3;
-}
-
-
-h1 {
+h3 {
     font-style: unset;
     text-align: center;
     text-decoration: wavy;
+    font-size: x-large;
 }
 
 img {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     margin:1rem;
 }
-
-h2 {
-    font-style: unset;
-    text-align: center;
-    
-}
-
-h3 {
-    text-decoration: underline;
-    text-decoration-color: #53745a;
+.cita {
+    font-style: italic;
+    color:#888;
+    margin: 1rem;
 }
 
 footer {
@@ -48,19 +37,7 @@ footer {
     color: white;
     padding: 1rem;
 }
-
-
-/*Selectores de clase*/
-.cita {
-    font-style: italic;
-    color:#888;
-    margin: 1rem;
-}
-.imagen-container {
-    text-align: center;
-}
-
-
+ 
 /*Selectores de Id*/
 #contenido {
     background-color: #f0f0f0;
@@ -69,7 +46,7 @@ footer {
     margin: 0 auto;
 }
 a{
-    color: #e0b0b0;
+    color: white;
     font-size: 20px;
     text-decoration: none;
 }

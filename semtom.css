@@ -13,33 +13,17 @@ header {
     padding:0.5rem;
 }
 
-ul {
-    font-style: oblique;
-    color: #ffd3d3;
-}
-
-
-h1 {
-    font-style: unset;
-    text-align: center;
-    text-decoration: wavy;
-}
-
 img {
     max-width: 40%;
     height: auto;
     margin:1rem;
 }
 
-h2 {
+h1 {
     font-style: unset;
     text-align: center;
-    
-}
-
-h3 {
-    text-decoration: underline;
-    text-decoration-color: #53745a;
+    text-decoration: wavy;
+    font-size: x-large;
 }
 
 footer {
@@ -48,18 +32,11 @@ footer {
     color: white;
     padding: 1rem;
 }
-
-
+ 
 /*Selectores de clase*/
-.cita {
-    font-style: italic;
-    color:#888;
-    margin: 1rem;
-}
 .imagen-container {
     text-align: center;
 }
-
 
 /*Selectores de Id*/
 #contenido {
@@ -69,7 +46,7 @@ footer {
     margin: 0 auto;
 }
 a{
-    color: #e0b0b0;
+    color: rgb(77, 79, 226);
     font-size: 20px;
     text-decoration: none;
 }
