@@ -17,11 +17,23 @@
                 <img src="164388_620.webp" alt="img2">
               </div>
             <p> La Sociedad Tomista fue fundada en 1948 y todos los años, se produce un encuentro en la Universidad Católica Argentina (UCA) donde por una semana, destacados intelectuales argentinos y extranjeros se reunen para exponer sus artículos científicos sobre el tema especialmente seleccionado para aquella fecha. Definitivamente una experiencia imperdible y altamente fructífera a nivel espiritual e intelectual. </p>
-            <p> Si desea participar en la semana tomista, puede acercarse a la recepción de la UCA (Av. Alicia Moreau de Justo 1300) o ingresar a su página web. </p>
+            <p> Si desea participar en la semana tomista, puede acercarse a la recepción de la UCA (Av. Alicia Moreau de Justo 1300) o ingresar a su página web para más información. </p>
             <a href="https://uca.edu.ar/es/home"> https://uca.edu.ar/es/home </a>
             <div class="imagen-container">
                 <img src="las-propuestas-abiertas-que-la-uca-ofrece-para-esta-semana-BvrR.jpg" alt="img2">
-              </div>
+              </div> 
+              <h2> ¿Cuántos días faltan para la próxima sociedad tomista? </h2>
+              <button onclick="cuantofalta()"><i class="bi bi-calendar-heart"></i> </button>
+              <p id="días"> </p>
+              <script>
+          var fechaActual = new Date ();
+          var fechaFinal = new Date (2024, 8, 1);
+          var diferencia = fechaFinal-fechaActual;
+          var calcularDias = Math.ceil(diferencia / (1000 * 60 * 60 * 24));
+          function cuantofalta(){
+              document.getElementById("días").textContent="Faltan " + calcularDias + " días para la próxima sociedad tomista ";
+          }
+              </script>
             <footer>
                 <p>Realizado por Equipo 1: Trinidad Aldunate, Lola Dieguez y Guadalupe Iannello (5° Año)</p>
                 <p>Siguenos en:
