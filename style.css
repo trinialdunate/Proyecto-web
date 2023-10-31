@@ -15,7 +15,7 @@ header {
 
 ul {
     font-style: oblique;
-    color: #ffd3d3;
+    color: #e08eb4;
 }
 
 
@@ -44,7 +44,7 @@ h3 {
 
 footer {
     text-align: center;
-    background-color: #ffd3d3;
+    background-color: #53745a;
     color: white;
     padding: 1rem;
 }
@@ -69,7 +69,7 @@ footer {
     margin: 0 auto;
 }
 a{
-    color: #e0b0b0;
+    color: #d85782;
     font-size: 20px;
     text-decoration: none;
 }
